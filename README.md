@@ -1,4 +1,4 @@
-# Past Tensifier
+# Tense Tensifier
 
 🤖 Node.js app that Convert a sentence to (past, present, future) tense using Natural Language Processing
 
