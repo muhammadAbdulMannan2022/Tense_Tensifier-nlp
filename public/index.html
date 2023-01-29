@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>nlp test</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tense Tensifier</h1>
+      <p>
+        <i
+          >Convert a sentence to (past, present, future) tense using Natural
+          Language Processing</i
+        >
+      </p>
+      <div class="inp">
+        <input type="text" placeholder="write your text here" name="sentence" />
+        <select name="to" id="select">
+          <option value="past">to past</option>
+          <option value="present">to Present</option>
+          <option value="future">to future</option>
+        </select>
+      </div>
+      <p style="color: aquamarine">( Press enter to convert )</p>
+      <div id="output">ans will here</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
