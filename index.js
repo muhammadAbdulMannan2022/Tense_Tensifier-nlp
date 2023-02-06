@@ -28,6 +28,16 @@ router.get("/futore-tense", (req, res) => {
   res.json({ text });
 });
 
+router.post("/user-data", (req, res) => {
+  console.log(req.body);
+  res.json({
+    name: "Muhammad",
+    age: 18,
+    email: "donot@gmail.com",
+    v: req.body,
+  });
+});
+
 app.use("/", router);
 
 http.createServer(app).listen(port, () => {
